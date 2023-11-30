@@ -1,27 +1,35 @@
 # PlatziAngularV17Store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+# Install tailwind en projecto angular
+https://tailwindcss.com/docs/guides/angular
 
-## Development server
+# Componentes creados usando tailwind
+https://flowbite.com
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Ciclo de Vida de un componente
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. contructor: Es lo primero que se ejecuta. Sirve para asignar valores por defecto. No deben ir cosas asíncronas.
 
-## Build
+2. ngOnChanges: Se ejecuta antes y durante el render. Cada vez que se emite un cambio, este ciclo de vida lo detecta
+   
+3. ngOnInit:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+4. ngDoCheck:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+5. ngAfterContentInit:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+6. ngAfterContentChecked: 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+7. ngAfterViewInit: 
+
+
+8. ngAfterViewCheck:
+
+
+9.  ngOnDestroy:
+
